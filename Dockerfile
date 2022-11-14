@@ -8,7 +8,7 @@ RUN \
   apt-get upgrade
   
 RUN \
-  apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev
+  apt-get -y install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev
   
 RUN \
   git clone https://github.com/xmrig/xmrig.git \
