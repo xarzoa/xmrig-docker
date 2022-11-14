@@ -23,6 +23,6 @@ RUN \
   cmake .. \
   make -j$(nproc)
   
-COPY config.json
+COPY config.json ./
 
 CMD ["sudo", "./xmrig"]
