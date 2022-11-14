@@ -10,11 +10,10 @@ RUN \
 RUN \
   apt-get -y install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev
   
-RUN \
-  git clone https://github.com/xmrig/xmrig.git \
-  mkdir xmrig/build && cd xmrig/build \
-  cmake .. \
-  make -j$(nproc)
+RUN git clone https://github.com/xmrig/xmrig.git
+RUN mkdir xmrig/build && cd xmrig/build
+RUN cmake ..
+RUN make -j$(nproc)
   
 COPY config.json ./
 
