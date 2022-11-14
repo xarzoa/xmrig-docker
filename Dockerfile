@@ -1,4 +1,4 @@
-FROM ubuntu:22
+FROM ubuntu:jammy
 MAINTAINER X <xarzoa@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
