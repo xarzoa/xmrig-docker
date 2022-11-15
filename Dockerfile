@@ -12,6 +12,9 @@ RUN \
   
 RUN git clone https://github.com/xmrig/xmrig.git
 RUN mkdir xmrig/build && cd xmrig/build
+
+WORKDIR /xmrig/app/xmrig/build
+
 RUN cmake ..
 RUN make -j$(nproc)
   
