@@ -1,6 +1,6 @@
 FROM ubuntu:jammy
 
-MAINTAINER X <xarzoa@gmail.com>
+MAINTAINER X <xarzoa@skiff.com>
 
 WORKDIR /xmrig/app
 
