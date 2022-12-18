@@ -20,4 +20,4 @@ RUN make -j$(nproc)
   
 COPY config.json ./
 
-CMD ["./xmrig -k"]
+CMD ["./xmrig"]
