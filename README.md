@@ -1,6 +1,8 @@
 # xmrig-docker
 
-Mine some crpto bruh!
+Mine some crypto with docker!
+
+Run xmrig cpu miner in your 4core server ( free trial works tho, earn some crypto if you doing nothing with cloud free trials)
 
 Edit config.json (else tnx bruh <3).
 
