@@ -30,3 +30,10 @@ sudo docker run xmrig
 - Don't install it on public/friend's pcs (tf dude)
 - Mine raptoreum (If you need some cryptos fast)
 - Star repo if it made your day :)
+
+## Recommended pools
+
+- [WoolyPooly](https://WoolyPooly.com)
+- [Raptoreum.zone](https://raptoreum.zone)
+- [XMRpool.eu](https://web.xmrpool.eu)
+- [NanoPool](https://nanopool.org)
