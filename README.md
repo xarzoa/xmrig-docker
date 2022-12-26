@@ -1,5 +1,7 @@
 # xmrig-docker
 
+Mine some crpto bruh!
+
 Edit config.json (else tnx bruh <3).
 
 - Install docker on your ubuntu server
@@ -37,3 +39,4 @@ sudo docker run xmrig
 - [Raptoreum.zone](https://raptoreum.zone)
 - [XMRpool.eu](https://web.xmrpool.eu)
 - [NanoPool](https://nanopool.org)
+- [Unmineable](https://unmineable.com)
